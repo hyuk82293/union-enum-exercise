@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+enum Month {
+    JAN = 1,
+    FEB,
+    MAR,
+    APR,
+    MAY,
+    JUN,
+    JUL,
+    AUG,
+    SEP,
+    OCT,
+    NOV,
+    DEC
+};
+
+int main() {
+    enum Month currentMonth = AUG;
+    printf("현재 월은 %d월입니다.\n", currentMonth);
+    return 0;
+}
