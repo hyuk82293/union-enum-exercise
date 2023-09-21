@@ -16,7 +16,7 @@ enum Month {
 };
 
 int main() {
-    enum Month currentMonth = AUG;
+    enum Month currentMonth = SEP;
     printf("현재 월은 %d월입니다.\n", currentMonth);
     return 0;
 }
